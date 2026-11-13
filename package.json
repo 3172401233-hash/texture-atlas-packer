@@ -1,0 +1,29 @@
+{
+  "name": "texture-atlas-packer",
+  "version": "1.0.0",
+  "description": "零依赖的游戏纹理图集打包库：多页、旋转、间距、固定页面与 UV 映射",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "keywords": [
+    "texture-atlas",
+    "bin-packing",
+    "maxrects",
+    "uv",
+    "game-assets",
+    "spritesheet"
+  ],
+  "license": "MIT"
+}
